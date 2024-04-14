@@ -6,9 +6,12 @@ commands:
   addfriend:
     description: 친구 추가 명령어
     usage: "/addfriend <username>"
+    aliases: ["addfriend"]
   listfriend:
     description: 친구 목록 명령어
     usage: "/listfriend"
+    aliases: ["listfriend"]
   removefriend:
     description: 친구 추가 명령어
     usage: "/removefriend <username>"
+    aliases: ["removefriend"]
